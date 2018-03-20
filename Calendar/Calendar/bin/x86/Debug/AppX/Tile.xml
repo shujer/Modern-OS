@@ -1,0 +1,23 @@
+﻿<tile>
+  <visual branding="Name" displayName="Calendar">
+
+    <binding template="TileSmall">
+      <image src="Assets\background.jpg" placement="background" />
+      <text></text>
+    </binding>
+
+    <binding template="TileMedium">
+      <image src="Assets\background.jpg" placement="background" />
+      <text hint-style="base"></text>
+      <text hint-style="base"></text>
+      <text hint-style="captionSubtle"></text>
+    </binding>
+
+    <binding template="TileWide">
+      <image src="Assets\background.jpg" placement="background" />
+      <text hint-style="base"></text>
+      <text hint-style="base"></text>
+      <text hint-style="captionSubtle"></text>
+    </binding>
+  </visual>
+</tile>

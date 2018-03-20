@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Calendar.Views.SearchView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calendar.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid Grid.Column="1" Margin="0,0,20,0" HorizontalAlignment="Center">
+            <Grid Height="33" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <!--搜索框输入-->
+                <TextBox x:ConnectionId='1' Name="SearchBox" Grid.Column="0" Width="200" Height="33" Padding="0,0,0,0" Margin="0,0,0,0" FontSize="18"  FontStyle="Normal" BorderBrush="#9400d3" BorderThickness="1"></TextBox>
+                <!--搜索点击按钮-->
+                <Button x:ConnectionId='2' Name="SearchButton"                            Grid.Column="1" Content="Search" Height="33" Width="70" Background="#9400d3"  FontSize="16" BorderBrush="#9400D3" Foreground="WhiteSmoke"></Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
+

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tile>
+  <visual displayName="TodoList">
+
+    <binding template="TileSmall">
+      <image src="Assets/background2.jpg" placement="background" />
+      <text hint-style="base" hint-wrap="true"></text>
+      <text></text>
+    </binding>
+
+    <binding template="TileMedium">
+      <image src="Assets/background2.jpg" placement="background" />
+      <text hint-style="base"></text>
+      <text hint-style ="captionSubtle" hint-wrap="true" hint-maxLines="2"></text>
+    </binding>
+
+    <binding template="TileWide">
+      <image src="Assets/background5.jpg" placement="background" />
+      <text hint-style="base"></text>
+      <text hint-style ="captionSubtle" hint-wrap="true" hint-maxLine="2"></text>
+    </binding>
+
+    <binding template="TileLarge">
+      <image src="Assets/background5.jpg" placement="background" />
+      <text hint-style="base"></text>
+      <text hint-style ="captionSubtle" hint-wrap="true" hint-maxLine="2"></text>
+    </binding>
+  </visual>
+</tile>
+
+
+
